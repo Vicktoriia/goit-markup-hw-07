@@ -23,34 +23,36 @@
   <body>
     <!-- header -->
     <header class="header">
-      <div class="container container-top-line">
-        <a class="logo header-logo link" href="./index.html">
-          <span class="logo-accent">Web</span>Studio
+      <div class="container top-menu">
+        <a class="header__logo logo link" href="./index.html">
+          <span class="logo--accent">Web</span>Studio
         </a>
-        <div class="header-content">
+        <div class="header__content">
           <nav class="nav">
-            <ul class="nav-list list">
-              <li class="nav-list-item">
-                <a class="nav-link link" href="./index.html">Студия</a>
+            <ul class="nav__list list">
+              <li class="nav__item">
+                <a class="nav__link link" href="./index.html">Студия</a>
               </li>
-              <li class="nav-list-item">
-                <a class="nav-link link nav-link-active" href="./portfolio.html"
+              <li class="nav__item">
+                <a
+                  class="nav__link nav__link--active link"
+                  href="./portfolio.html"
                   >Портфолио
                 </a>
               </li>
-              <li class="nav-list-item">
-                <a class="nav-link link" href="#contacts">Контакты</a>
+              <li class="nav__item">
+                <a class="nav__link link" href="#contacts">Контакты</a>
               </li>
             </ul>
           </nav>
-          <ul class="top-menu-contacts-list list">
-            <li class="top-menu-contacts-item">
+          <ul class="top-menu__contacts list">
+            <li class="top-menu__contacts-item">
               <a
-                class="top-menu-contacts-link link"
+                class="top-menu__contacts-link link"
                 href="mailto:info@devstudio.com"
               >
                 <svg
-                  class="top-menu-contacts-icon icon-envelope"
+                  class="top-menu__contacts-icon icon--envelope"
                   width="16px"
                   height="12px"
                 >
@@ -59,10 +61,10 @@
                 info@devstudio.com
               </a>
             </li>
-            <li class="top-menu-contacts-item">
-              <a class="top-menu-contacts-link link" href="tel:+380961111111">
+            <li class="top-menu__contacts-item">
+              <a class="top-menu__contacts-link link" href="tel:+380961111111">
                 <svg
-                  class="top-menu-contacts-icon icon-smartphone"
+                  class="top-menu__contacts-icon icon--smartphone"
                   width="10px"
                   height="16px"
                 >
@@ -77,43 +79,43 @@
     <main>
       <section class="portfolio section">
         <!-- Filters -->
-        <div class="container filters-container">
-          <h2 class="section-title hidden">Фильтры</h2>
-          <ul class="filters-list list">
-            <li class="filters-item item">
-              <button class="filters-button btn" type="button">Все</button>
+        <div class="container filters">
+          <h2 class="section__title hidden">Фильтры</h2>
+          <ul class="filters__list list">
+            <li class="filters__item item">
+              <button class="filters__button btn" type="button">Все</button>
             </li>
-            <li class="filters-item item">
-              <button class="filters-button btn" type="button">
+            <li class="filters__item item">
+              <button class="filters__button btn" type="button">
                 Веб-сайты
               </button>
             </li>
-            <li class="filters-item item">
-              <button class="filters-button btn" type="button">
+            <li class="filters__item item">
+              <button class="filters__button btn" type="button">
                 Приложения
               </button>
             </li>
-            <li class="filters-item item">
-              <button class="filters-button btn" type="button">Дизайн</button>
+            <li class="filters__item item">
+              <button class="filters__button btn" type="button">Дизайн</button>
             </li>
-            <li class="filters-item item">
-              <button class="filters-button btn" type="button">
+            <li class="filters__item item">
+              <button class="filters__button btn" type="button">
                 Маркетинг
               </button>
             </li>
           </ul>
         </div>
         <!-- Projects -->
-        <div class="container projects-container">
-          <h2 class="section-title hidden">Проекты</h2>
+        <div class="container projects">
+          <h2 class="section__title hidden">Проекты</h2>
           <!-- скрыть -->
-          <ul class="projects-list list">
-            <li class="projects-item">
-              <div class="projects-picture">
+          <ul class="projects__list list">
+            <li class="projects__item">
+              <div class="projects__picture">
                 <img
                   src="./images/projects/project1.jpg"
                   alt="project1"
-                  class="projects-img"
+                  class="projects__img"
                   width="370"
                   height="294"
                 />
@@ -123,17 +125,17 @@
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
-              <div class="projects-card">
-                <h3 class="projects-name">Технокряк</h3>
-                <p class="projets-description">Веб-сайт</p>
+              <div class="projects__card">
+                <h3 class="projects__name">Технокряк</h3>
+                <p class="projets__description">Веб-сайт</p>
               </div>
             </li>
-            <li class="projects-item">
-              <div class="projects-picture">
+            <li class="projects__item">
+              <div class="projects__picture">
                 <img
                   src="./images/projects/project2.jpg"
                   alt="project2"
-                  class="projects-img"
+                  class="projects__img"
                   width="370"
                   height="294"
                 />
@@ -143,17 +145,17 @@
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
-              <div class="projects-card">
-                <h3 class="projects-name">Постер New Orlean vs Golden Star</h3>
-                <p class="projets-description">Дизайн</p>
+              <div class="projects__card">
+                <h3 class="projects__name">Постер New Orlean vs Golden Star</h3>
+                <p class="projets__description">Дизайн</p>
               </div>
             </li>
-            <li class="projects-item">
-              <div class="projects-picture">
+            <li class="projects__item">
+              <div class="projects__picture">
                 <img
                   src="./images/projects/project3.jpg"
                   alt="project3"
-                  class="projects-img"
+                  class="projects__img"
                   width="370"
                   height="294"
                 />
@@ -163,17 +165,17 @@
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
-              <div class="projects-card">
-                <h3 class="projects-name">Ресторан Seafood</h3>
-                <p class="projets-description">Приложение</p>
+              <div class="projects__card">
+                <h3 class="projects__name">Ресторан Seafood</h3>
+                <p class="projets__description">Приложение</p>
               </div>
             </li>
-            <li class="projects-item">
-              <div class="projects-picture">
+            <li class="projects__item">
+              <div class="projects__picture">
                 <img
                   src="./images/projects/project4.jpg"
                   alt="project4"
-                  class="projects-img"
+                  class="projects__img"
                   width="370"
                   height="294"
                 />
@@ -183,17 +185,17 @@
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
-              <div class="projects-card">
-                <h3 class="projects-name">Проект Prime</h3>
-                <p class="projets-description">Маркетинг</p>
+              <div class="projects__card">
+                <h3 class="projects__name">Проект Prime</h3>
+                <p class="projets__description">Маркетинг</p>
               </div>
             </li>
-            <li class="projects-item">
-              <div class="projects-picture">
+            <li class="projects__item">
+              <div class="projects__picture">
                 <img
                   src="./images/projects/project5.jpg"
                   alt="project5"
-                  class="projects-img"
+                  class="projects__img"
                   width="370"
                   height="294"
                 />
@@ -203,17 +205,17 @@
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
-              <div class="projects-card">
-                <h3 class="projects-name">Проект Boxes</h3>
-                <p class="projets-description">Приложение</p>
+              <div class="projects__card">
+                <h3 class="projects__name">Проект Boxes</h3>
+                <p class="projets__description">Приложение</p>
               </div>
             </li>
-            <li class="projects-item">
-              <div class="projects-picture">
+            <li class="projects__item">
+              <div class="projects__picture">
                 <img
                   src="./images/projects/project6.jpg"
                   alt="project6"
-                  class="projects-img"
+                  class="projects__img"
                   width="370"
                   height="294"
                 />
@@ -223,19 +225,19 @@
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
-              <div class="projects-card">
-                <h3 class="projects-name" lang="en">
+              <div class="projects__card">
+                <h3 class="projects__name" lang="en">
                   Inspiration has no Borders
                 </h3>
-                <p class="projets-description">Веб-сайт</p>
+                <p class="projets__description">Веб-сайт</p>
               </div>
             </li>
-            <li class="projects-item">
-              <div class="projects-picture">
+            <li class="projects__item">
+              <div class="projects__picture">
                 <img
                   src="./images/projects/project7.jpg"
                   alt="project7"
-                  class="projects-img"
+                  class="projects__img"
                   width="370"
                   height="294"
                 />
@@ -245,17 +247,17 @@
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
-              <div class="projects-card">
-                <h3 class="projects-name">Издание Limited Edition</h3>
-                <p class="projets-description">Дизайн</p>
+              <div class="projects__card">
+                <h3 class="projects__name">Издание Limited Edition</h3>
+                <p class="projets__description">Дизайн</p>
               </div>
             </li>
-            <li class="projects-item">
-              <div class="projects-picture">
+            <li class="projects__item">
+              <div class="projects__picture">
                 <img
                   src="./images/projects/project8.jpg"
                   alt="project8"
-                  class="projects-img"
+                  class="projects__img"
                   width="370"
                   height="294"
                 />
@@ -265,17 +267,17 @@
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
-              <div class="projects-card">
-                <h3 class="projects-name">Проект LAB</h3>
-                <p class="projets-description">Маркетинг</p>
+              <div class="projects__card">
+                <h3 class="projects__name">Проект LAB</h3>
+                <p class="projets__description">Маркетинг</p>
               </div>
             </li>
-            <li class="projects-item">
-              <div class="projects-picture">
+            <li class="projects__item">
+              <div class="projects__picture">
                 <img
                   src="./images/projects/project9.jpg"
                   alt="project9"
-                  class="projects-img"
+                  class="projects__img"
                   width="370"
                   height="294"
                 />
@@ -285,9 +287,9 @@
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
-              <div class="projects-card">
-                <h3 class="projects-name" lang="en">Growing Business</h3>
-                <p class="projets-description">Приложение</p>
+              <div class="projects__card">
+                <h3 class="projects__name" lang="en">Growing Business</h3>
+                <p class="projets__description">Приложение</p>
               </div>
             </li>
           </ul>
@@ -296,50 +298,50 @@
     </main>
     <!--Footer-->
     <footer class="footer" id="contacts">
-      <div class="container footer-container">
-        <div class="footer-contacts-conteiner">
-          <a class="logo footer-logo link" href="./index.html">
-            <span class="logo-accent">Web</span>Studio
+      <div class="container footer__container">
+        <div class="footer__contacts">
+          <a class="footer__logo logo link" href="./index.html">
+            <span class="logo--accent">Web</span>Studio
           </a>
-          <address class="footer-address">
-            <ul class="footer-list list">
-              <li class="footer-item">
+          <address class="footer__address">
+            <ul class="footer__contacts-list list">
+              <li class="footer__contacts-item">
                 <a
                   href="https://goo.gl/maps/AorqNfxdtR1ALaBC8"
                   target="-blank"
                   rel="noopener noreferrer"
-                  class="footer-contacts-item link"
+                  class="footer__address-link link"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="footer-item">
+              <li class="footer__contacts-item">
                 <a
-                  class="footer-contacts-link link"
+                  class="footer__contacts-link link"
                   href="mailto:info.example.com"
                   >info.example.com</a
                 >
               </li>
-              <li class="footer-item">
-                <a class="footer-contacts-link link" href="tel:+380991111111">
+              <li class="footer__contacts-item">
+                <a class="footer__contacts-link link" href="tel:+380991111111">
                   +38 099 111 11 11</a
                 >
               </li>
             </ul>
           </address>
         </div>
-        <div class="footer-social-links-container">
-          <strong class="footer-action">присоединяйтесь</strong>
+        <div class="footer__social-links">
+          <strong class="footer--action">присоединяйтесь</strong>
           <ul class="social-links list">
-            <li class="social-links-item">
+            <li class="social-links__item">
               <a
-                class="footer-social-link"
+                class="footer__social-link social-link"
                 href="#"
                 aria-label="Instagram"
                 target="-blank"
                 rel="noopener noreferrer"
               >
                 <svg
-                  class="social-link-icon footer-icon"
+                  class="social-link__icon"
                   width="20px"
                   height="20px"
                 >
@@ -347,16 +349,16 @@
                 </svg>
               </a>
             </li>
-            <li class="social-links-item">
+            <li class="social-links__item">
               <a
                 href="#"
-                class="footer-social-link"
+                class="footer__social-link social-link"
                 aria-label="Twitter"
                 target="-blank"
                 rel="noopener noreferrer"
               >
                 <svg
-                  class="social-link-icon footer-icon"
+                  class="social-link__icon"
                   width="20px"
                   height="20px"
                 >
@@ -364,16 +366,16 @@
                 </svg>
               </a>
             </li>
-            <li class="social-links-item">
+            <li class="social-links__item">
               <a
                 href="#"
-                class="footer-social-link"
+                class="footer__social-link social-link"
                 aria-label="Facebook"
                 target="-blank"
                 rel="noopener noreferrer"
               >
                 <svg
-                  class="social-link-icon footer-icon"
+                  class="social-link__icon"
                   width="20px"
                   height="20px"
                 >
@@ -381,16 +383,16 @@
                 </svg>
               </a>
             </li>
-            <li class="social-links-item">
+            <li class="social-links__item">
               <a
                 href="#"
-                class="footer-social-link"
+                class="footer__social-link social-link"
                 aria-label="Linkedin"
                 target="-blank"
                 rel="noopener noreferrer"
               >
                 <svg
-                  class="social-link-icon footer-icon"
+                  class="social-link__icon"
                   width="20px"
                   height="20px"
                 >
@@ -400,22 +402,22 @@
             </li>
           </ul>
         </div>
-      <!-- Footer form -->
-        <div class="footer-form-container">
+        <!-- Footer form -->
+        <div class="footer-form__container">
           <form class="footer-form">
-            <b class="footer-action"> Подпишись на рассылку </b>
-            <div class="footer-form-subscription">
+            <b class="footer--action"> Подпишись на рассылку </b>
+            <div class="footer-form__subscription">
               <input
                 type="email"
                 id="footerEmail"
-                class="footer-form-email-input"
+                class="footer-form__email-input"
                 name="footerEmail"
                 placeholder=" "
               />
-              <label class="footer-form-email-label" for="footerEmail"
+              <label class="footer-form__email-label" for="footerEmail"
                 >E-mail</label
               >
-              <button type="submit" class="footer-form-btn btn">
+              <button type="submit" class="footer-form__btn btn">
                 <span>Подписаться</span>
                 <svg class="icon-send" width="24" height="24">
                   <use href="./images/icons.svg#icon-send"></use>
@@ -423,7 +425,7 @@
               </button>
             </div>
           </form>
-        </div>  
+        </div>
       </div>
     </footer>
   </body>
