@@ -1,0 +1,9 @@
+.team {
+  @extend %section;
+
+  background-color: var(--secondary-bg);
+
+  &__container {
+    @extend %container;
+  }
+}

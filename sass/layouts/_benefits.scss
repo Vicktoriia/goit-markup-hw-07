@@ -1,0 +1,7 @@
+.benefits {
+  @extend %section;
+
+  &__container {
+    @extend %container;
+  }
+}

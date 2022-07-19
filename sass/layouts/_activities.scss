@@ -1,0 +1,11 @@
+.activities {
+  padding-bottom: 94px;
+  padding-top: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  &__container {
+    @extend %container;
+  }
+}

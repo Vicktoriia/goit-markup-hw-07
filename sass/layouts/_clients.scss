@@ -1,0 +1,7 @@
+.clients {
+  @extend %section;
+
+  &__container {
+    @extend %container;
+  }
+}
