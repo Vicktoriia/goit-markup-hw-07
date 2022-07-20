@@ -4,4 +4,44 @@
   &__container {
     @extend %container;
   }
+
+  &__list {
+    display: flex;
+  }
+
+  &__logo {
+    fill: currentColor;
+  }
+}
+
+.clients__item {
+  margin-right: 30px;
+  width: calc((100% - (6 - 1) * 30px) / 6);
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.clients__link {
+  width: 170px;
+  height: 92px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--social-links);
+  border: 1px solid var(--social-links);
+  border-radius: 4px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border-color: var(--accent);
+    color: var(--accent);
+    outline: none;
+  }
 }

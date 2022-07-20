@@ -1,0 +1,25 @@
+.license {
+  margin-bottom: 30px;
+  width: 100%;
+
+  .license__label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+}
+
+.license__label-inner {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  user-select: none;
+}
+
+.license__link {
+  color: var(--accent);
+  text-decoration-line: underline;
+}
+}
+
