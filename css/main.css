@@ -725,6 +725,7 @@ img {
 
 .footer__contacts-item {
   margin-bottom: 9px;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
